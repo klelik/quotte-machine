@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/quotte-machine/static/css/main.6b026f6a.css",
-    "main.js": "/quotte-machine/static/js/main.89a877c2.js",
+    "main.js": "/quotte-machine/static/js/main.28aee8e3.js",
     "static/js/787.eb2585c8.chunk.js": "/quotte-machine/static/js/787.eb2585c8.chunk.js",
     "index.html": "/quotte-machine/index.html",
     "main.6b026f6a.css.map": "/quotte-machine/static/css/main.6b026f6a.css.map",
-    "main.89a877c2.js.map": "/quotte-machine/static/js/main.89a877c2.js.map",
+    "main.28aee8e3.js.map": "/quotte-machine/static/js/main.28aee8e3.js.map",
     "787.eb2585c8.chunk.js.map": "/quotte-machine/static/js/787.eb2585c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b026f6a.css",
-    "static/js/main.89a877c2.js"
+    "static/js/main.28aee8e3.js"
   ]
 }
