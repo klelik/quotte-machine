@@ -12,7 +12,7 @@ function App() {
 
   const [quote,setQuote] = useState("Too  of us are not living our dreams because we are living our fears.")
   const [author,setAuthor] = useState("Klement")
-  const [randomNumber,setRandomNumber] =useState(0);
+  // const [randomNumber,setRandomNumber] =useState(0);
   const [quotesArray, setQuotesArray] = useState(null)
   const [randomColor,setRandomColor] =useState('#3AA7A3');
 
@@ -25,11 +25,11 @@ function App() {
 
   useEffect(() => {
     fetchQuotes(quoteDB)
-  }, [quoteDB])
+  }, [])
   
   const getRandomQuote = () => {
     let rand= Math.floor(quotesArray.length*Math.random())
-    setRandomNumber(rand)
+    // setRandomNumber(rand)
     setRandomColor(COLOR_ARRAY[rand])
     setQuote(quotesArray[rand].quote);
     setAuthor(quotesArray[rand].author);
