@@ -1,25 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
-
-@media only screen and (max-width: 600px) {
-  body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.75em;
-    flex-direction: column-reverse;
-
-    #new-quote{
-      margin-bottom: 10px;
-    }
-
-  }
-}
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
 
 #text {
   width: 550px;
   font-weight: 500;
   font-size: 1.5em;
   text-align: center;
-
-
 }
 
 #quote-symb {
@@ -27,33 +12,44 @@
   margin-right: 0.7em;
 }
 
-
 @-webkit-keyframes fade {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @-moz-keyframes fade {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @-o-keyframes fade {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes fade {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-
-
-
 .App {
-
   text-align: center;
   animation-name: fade;
-  animation-duration: 2s; 
-  animation-fill-mode: forwards; 
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 
   .App-header {
     background-color: #282c34;
@@ -66,9 +62,7 @@
     color: white;
   }
 
-
-  .buttons{
-
+  .buttons {
     display: flex;
     justify-content: space-between;
     min-height: 50px;
@@ -76,17 +70,16 @@
     height: 100%;
     width: 100%;
 
-
-    #tweet-quote{
-    float: left;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 9px;
-    box-shadow: 3px 3px #888888;
+    #tweet-quote {
+      float: left;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 9px;
+      box-shadow: 3px 3px #888888;
     }
-    #new-quote{
+    #new-quote {
       float: right;
       color: white;
       border-radius: 9px;
@@ -97,31 +90,32 @@
     }
   }
 
-.buttonEffect:hover {background-color: #3e8e41}
+  .buttonEffect:hover {
+    background-color: #3e8e41;
+  }
 
-.buttonEffect:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-
-
-
+  .buttonEffect:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
   #quote-box {
-
     padding: 25px;
-
     background-color: white;
     border-radius: 10px;
     color: black;
-    #author{
+    #author {
       text-align: end;
     }
   }
-  
-  
-  
+
+  p {
+    font-size: 1.5vw;
+  }
 }
 
-
+@media only screen and (max-width: 600px) {
+  #quote-box {
+    scale: 0.67;
+  }
+}
